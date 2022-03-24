@@ -1,7 +1,5 @@
 #!/bin/sh
 
-set -e
-
 cmd=$1
 
 if [ $cmd = 'web' ]; then
