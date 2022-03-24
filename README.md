@@ -5,7 +5,7 @@ This application is a Meteorology REST API that support all city and countries a
 ## Follow the steps below to setup and run the progect:
 ```
 git clone https://github.com/Eshaq-F/Meteorologist.git
-cd sandbod
+cd Meteorologist
 docker-compose build
 docker-compose up -d
 ```
