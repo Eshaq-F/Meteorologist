@@ -14,5 +14,6 @@ RUN pip3 install -r requirements.txt
 
 COPY restapi /django
 
-ENTRYPOINT [ "/bin/sh", "/django/entry.sh" ]
-CMD [ "web" ]
+RUN sleep 15
+RUN python manage.py migrate
+CMD python manage.py runserver 0.0.0.0:8000
